@@ -2,6 +2,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
 }
+
 .container {
     background: #fff;
     padding: 20px;
@@ -15,7 +16,7 @@ h2 {
     font-weight: 800;
     /* font-size: large; */
     font-size: 28px;
-    
+
 }
 
 .summary {
@@ -108,11 +109,12 @@ h2 {
     max-width: 300px !important;
     max-height: 300px !important;
 }
+
 .canvas-2 {
     max-width: 380px;
 }
 
-    /* canvas {
+/* canvas {
         max-width: 480px
     } */
 
@@ -161,8 +163,9 @@ h2 {
 .footer-logo {
     height: 30px;
 }
-@media screen and (max-width :576px){
-    .footer-logo{
+
+@media screen and (max-width :576px) {
+    .footer-logo {
         height: 20px;
     }
 }
@@ -290,6 +293,7 @@ tr:last-child td:last-child {
 .dot {
     font-size: 20px;
 }
+
 .canvas-3 {
     width: 385px !important;
 }
@@ -297,6 +301,11 @@ tr:last-child td:last-child {
 .mobile-iqama {
     display: none;
 }
+.centered-cell {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* optional, for vertical centering */
+  }
 
 .span-text {
     font-weight: 700;
@@ -309,6 +318,10 @@ tr:last-child td:last-child {
 
 .desclaimer {
     font-weight: 600;
+
+}
+.graph-title {
+  font-size: 17px;
 }
 
 .about-desc {
@@ -342,12 +355,14 @@ tr:last-child td:last-child {
 .web-iqma {
     display: block;
     text-align: center;
+    font-size: 20px;
 }
 
 .two-graphs {
     display: flex;
     justify-content: space-around;
 }
+
 .status-btn {
     display: flex;
     align-items: center;
@@ -378,6 +393,7 @@ tr:last-child td:last-child {
     background-color: rgba(0, 255, 0, 0.1);
     color: green;
 }
+
 .active span {
     background-color: green;
 }
@@ -386,6 +402,7 @@ tr:last-child td:last-child {
     background-color: rgba(255, 165, 0, 0.1);
     color: orange;
 }
+
 .expiring span {
     background-color: orange;
 }
@@ -394,19 +411,22 @@ tr:last-child td:last-child {
     background-color: rgba(255, 0, 0, 0.1);
     color: red;
 }
+
 .expired span {
     background-color: red;
 }
+
 li {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 400;        }
+    font-weight: 400;
+}
 
 /* Responsive Design */
 @media (max-width: 600px) {
     .status-btn {
         width: 100%;
         max-width: 280px;
-        font-size: 14px;
+        font-size: 10px;
         padding: 8px 15px;
     }
 
@@ -415,34 +435,40 @@ li {
         height: 10px;
     }
 }
-@media (min-width: 110px){
-.horizontal-text {
-    width: 70%
+
+@media (min-width: 110px) {
+    .horizontal-text {
+        width: 70%
+    }
+
 }
 
-} 
 
-
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
     .contact-info {
         flex-direction: column;
         gap: 15px;
     }
+
     .horizontal-text {
         justify-self: end;
         gap: 20px;
         width: 120%;
         /* margin-right: 100px; */
     }
+
     .canvas-1 {
         max-width: 250px;
     }
+
     .graph-title {
         font-size: small;
     }
+
     .chart-container {
         flex-direction: column;
     }
+
     .third-graph {
         margin-top: 20px;
     }
@@ -451,20 +477,24 @@ li {
         display: block;
         text-align: center;
     }
+
     /* .canvas-3 {
         height: 300px;
         width: 400px;
     } */
-    
-.about-desc {
-    font-size: small;
-}
-td,th {
-    font-size: small;
-}
-.desclaimer {
-    font-size: small;
-}
+
+    .about-desc {
+        font-size: small;
+    }
+
+    td,
+    th {
+        font-size: small;
+    }
+
+    .desclaimer {
+        font-size: small;
+    }
 
     h1,
     h2 {
@@ -512,33 +542,42 @@ td,th {
     .heading {
         font-size: 14px;
     }
+
     .vertical-line {
         height: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
     }
 
     .contact-info a {
         font-size: 13px;
         margin-top: 4px;
     }
+
     .main-logo {
         width: 104px;
         height: 34px;
     }
+
     .logo {
         height: 25px;
         width: 50px;
     }
+
     .date {
         font-size: x-small;
     }
+
     .desc {
         font-size: small;
     }
+
     li {
         font-size: small;
         font-family: 'Montserrat', sans-serif;
         font-weight: 400;
     }
+
     .list-point {
         font-size: small;
     }
@@ -574,6 +613,7 @@ td,th {
         display: flex;
         justify-content: space-around;
     }
+
     .rotated-heading {
         margin-top: 60px;
     }
@@ -583,21 +623,24 @@ td,th {
         margin-bottom: 125px;
         margin-right: 4px;
     }
-            #remainingDaysChart {
-width: 290px !important; /* Set to your preferred width */
-height: 250px !important;
-margin-right: 35px;
-}
+
+    #remainingDaysChart {
+        width: 290px !important;
+        /* Set to your preferred width */
+        height: 250px !important;
+        margin-right: 35px;
+    }
 
 }
+
 /* @media screen and (max-width: 970px) {
   .canvas-3 {
     height: 270px !important;
   }
 } */
 
-@media (max-width: 1024px){
-    .canvas-3{
+@media (max-width: 1024px) {
+    .canvas-3 {
         width: 350px;
     }
 }
@@ -612,7 +655,8 @@ margin-right: 35px;
     .dot {
         font-size: 4px;
     }
-/*             
+
+    /*             
     .canvas-3 {
         height: 300px !important;
         width: 400px !important;
@@ -622,19 +666,21 @@ margin-right: 35px;
     } */
 
 }
+
 /* .canvas-3 {
 
 } */
- @media (min-width : 1080px){
-    .horizontal-text{
+@media (min-width : 1080px) {
+    .horizontal-text {
         width: 100%;
     }
- }
+}
 
 @media (max-width: 1080px) {
     .two-graphs {
         /* flex-direction: column; */
     }
+
     /* div {
         display: flex;
     } */
@@ -650,35 +696,44 @@ margin-right: 35px;
         font-size: 4px;
     }
 }
+
 @media (min-width: 1100px) {
     .horizontal-text {
         width: 80%;
     }
 }
+
 @media (max-width: 576px) {
     #remainingDaysChart {
-width: 200px !important; /* Set to your preferred width */
-height: 250px !important;
-    } 
+        width: 200px !important;
+        /* Set to your preferred width */
+        height: 250px !important;
+    }
+
     .two-graphs {
         flex-direction: column;
         align-items: center;
     }
 }
+
 @media (max-width: 400px) {
     #remainingDaysChart {
-width: 180px !important; /* Set to your preferred width */
-height: 250px !important;
-    } 
+        width: 180px !important;
+        /* Set to your preferred width */
+        height: 250px !important;
+    }
 }
+
 @media (max-width: 350px) {
     #remainingDaysChart {
-width: 175px !important; /* Set to your preferred width */
-height: 250px !important;
-    } 
+        width: 175px !important;
+        /* Set to your preferred width */
+        height: 250px !important;
+    }
 }
 
 #remainingDaysChart {
-width: 300px ; /* Set to your preferred width */
-height: 300px !important;
+    width: 300px;
+    /* Set to your preferred width */
+    height: 300px !important;
 }
